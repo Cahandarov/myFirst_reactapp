@@ -1,0 +1,114 @@
+#center {
+  width: 67%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+#slider {
+  width: 100%;
+  height: 221px;
+  padding: 0px 21px;
+  display: flex;
+  gap: 25px;
+}
+#photo_box {
+  width: 100%;
+  height: 615px;
+  border-radius: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.27);
+  background: #fff;
+}
+.photo_box {
+  width: 917px;
+  height: 423px;
+}
+#Photo_box_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+}
+#Photo_box_top_left {
+  display: flex;
+  gap: 20px;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.text36203 {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text16293 {
+  color: rgba(0, 0, 0, 0.49);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+}
+#follow_btn {
+  display: flex;
+  width: 113px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #585858;
+  border: none;
+  border-radius: 8px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+#photo_box_center {
+  padding: 10px 20px;
+}
+
+#follow_btn::after {
+  content: url(./photo_box/images/done.svg);
+  padding: 10px;
+}
+.slider_item {
+  width: 147px;
+  height: 221px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: lightgray 50%;
+}
+.slider_item_full {
+  position: relative;
+}
+.slider_item_top {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+#Photo_box_bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 0px 41px 31px;
+}
+#Photo_box_bottom_row_1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Photo_box_bottom_row_1_left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px;
+}
+
